@@ -23,7 +23,7 @@ function convertToRoman(num) {
     result = result.replace('XXXX', 'XL');
     result = result.replace('VIIII', 'IX');
     result = result.replace('IIII', 'IV');
-	
+	return result
 
 }
 // You can test your code by running the above function and printing it to console by pressing the run button at the top. To run it with input 36, uncomment the following line
